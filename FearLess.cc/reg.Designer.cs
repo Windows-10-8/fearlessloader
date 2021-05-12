@@ -55,7 +55,7 @@ namespace FearLess.cc
             // 
             // guna2DragControl1
             // 
-            this.guna2DragControl1.ContainerControl = this;
+
             this.guna2DragControl1.TargetControl = this.panel1;
             // 
             // panel1
@@ -68,7 +68,6 @@ namespace FearLess.cc
             // 
             // guna2DragControl2
             // 
-            this.guna2DragControl2.ContainerControl = this;
             this.guna2DragControl2.TargetControl = this.panel3;
             // 
             // panel3
@@ -173,7 +172,7 @@ namespace FearLess.cc
             // 
             // guna2DragControl3
             // 
-            this.guna2DragControl3.ContainerControl = this;
+            
             this.guna2DragControl3.TargetControl = this;
             // 
             // reg

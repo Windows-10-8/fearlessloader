@@ -26,3 +26,13 @@ C:\Users\ingfr\source\repos\FearLess.cc\FearLess.cc\obj\Debug\FearLess.cc.admin.
 C:\Users\ingfr\source\repos\FearLess.cc\FearLess.cc\bin\Debug\Polly.xml
 C:\Users\ingfr\source\repos\FearLess.cc\FearLess.cc\bin\Debug\System.Net.Http.Formatting.xml
 C:\Users\ingfr\source\repos\FearLess.cc\FearLess.cc\obj\Debug\FearLess.cc.reg.resources
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.csprojAssemblyReference.cache
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.admin.resources
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.Form1.resources
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.key.resources
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.Properties.Resources.resources
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.reg.resources
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.csproj.GenerateResource.cache
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.csproj.CoreCompileInputs.cache
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.exe
+C:\Users\ingfr\source\repos\FearLess.cc\fearlessloader\FearLess.cc\obj\Debug\FearLess.cc.pdb

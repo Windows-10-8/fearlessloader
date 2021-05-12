@@ -60,7 +60,7 @@ namespace FearLess.cc
             // 
             // guna2DragControl1
             // 
-            this.guna2DragControl1.ContainerControl = this;
+
             this.guna2DragControl1.TargetControl = this.panel2;
             // 
             // panel1
