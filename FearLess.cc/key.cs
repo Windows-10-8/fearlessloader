@@ -76,12 +76,18 @@ namespace FearLess.cc
 
                         if (rd[5].ToString() == "standard")
                         {
+                            Properties.Settings.Default.Username = textBox1.Text;
+                            Properties.Settings.Default.Password = textBox2.Text;
+                            Properties.Settings.Default.Save();
                             Form1 frm = new Form1();
                             frm.Show();
                             Hide();
                         }
                         else
                         {
+                            Properties.Settings.Default.Username = textBox1.Text;
+                            Properties.Settings.Default.Password = textBox2.Text;
+                            Properties.Settings.Default.Save();
                             admin frm = new admin();
                             frm.Show();
                             Hide();
@@ -158,6 +164,9 @@ System.Windows.Forms.MessageBoxIcon.Error);
                         }
                         else if (rd[5].ToString() == "admin")
                         {
+                            Properties.Settings.Default.Username = textBox1.Text;
+                            Properties.Settings.Default.Password = textBox2.Text;
+                            Properties.Settings.Default.Save();
                             Console.WriteLine("Admin detected! Proceed!");
                             admin ad = new admin();
                             ad.Show();
