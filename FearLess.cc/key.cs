@@ -98,6 +98,9 @@ namespace FearLess.cc
                         }
                         else if (rd[5].ToString() == "standard")
                         {
+                            Properties.Settings.Default.Username = textBox1.Text;
+                            Properties.Settings.Default.Password = textBox2.Text;
+                            Properties.Settings.Default.Save();
                             Console.WriteLine("normal key, proceed");
                             //WebBrowser wb = new WebBrowser();
                             //wb.Navigate("http://windowsrilsite.site/date.php");
@@ -141,7 +144,7 @@ namespace FearLess.cc
                                 Console.WriteLine(expiry);
                                 Console.WriteLine("no");
 
-                                System.Windows.Forms.MessageBox.Show("Key Expired!", "Error",
+                                System.Windows.Forms.MessageBox.Show("Time Expired!", "Error",
 System.Windows.Forms.MessageBoxButtons.OK,
 System.Windows.Forms.MessageBoxIcon.Error);
                                 Form1 frm = new Form1();
@@ -165,7 +168,7 @@ System.Windows.Forms.MessageBoxIcon.Error);
             }
             else
             {
-                System.Windows.Forms.MessageBox.Show("Key not found", "Error",
+                System.Windows.Forms.MessageBox.Show("Username or password not found!", "Error",
         System.Windows.Forms.MessageBoxButtons.OK,
         System.Windows.Forms.MessageBoxIcon.Error);
             }
