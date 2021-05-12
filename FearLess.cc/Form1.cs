@@ -250,6 +250,7 @@ namespace FearLess.cc
             panel2.BackColor = Color.FromArgb(r, g, b);
             panel1.BackColor = Color.FromArgb(r, g, b);
             button1.BackColor = Color.FromArgb(r, g, b);
+            button2.BackColor = Color.FromArgb(r, g, b);
 
 
             if (r > 0 && b == 0)

@@ -41,7 +41,7 @@ namespace FearLess.cc
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // panel2
@@ -60,7 +60,6 @@ namespace FearLess.cc
             // 
             // guna2DragControl1
             // 
-//            this.guna2DragControl1.ContainerControl = this;
             this.guna2DragControl1.TargetControl = this.panel2;
             // 
             // panel1
@@ -73,7 +72,6 @@ namespace FearLess.cc
             // 
             // guna2DragControl2
             // 
-   //         this.guna2DragControl2.ContainerControl = this;
             this.guna2DragControl2.TargetControl = this.panel1;
             // 
             // button1
@@ -84,7 +82,7 @@ namespace FearLess.cc
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("! PEPSI !", 17.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(228, 425);
+            this.button1.Location = new System.Drawing.Point(134, 420);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(268, 92);
             this.button1.TabIndex = 2;
@@ -97,7 +95,7 @@ namespace FearLess.cc
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("! PEPSI !", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(79, 42);
+            this.label4.Location = new System.Drawing.Point(79, 15);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(372, 53);
             this.label4.TabIndex = 5;
@@ -105,7 +103,7 @@ namespace FearLess.cc
             // 
             // richTextBox1
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(88, 122);
+            this.richTextBox1.Location = new System.Drawing.Point(88, 146);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(363, 42);
@@ -132,21 +130,16 @@ namespace FearLess.cc
             this.label1.TabIndex = 8;
             this.label1.Text = "Log";
             // 
-            // button2
+            // label2
             // 
-            this.button2.BackColor = System.Drawing.Color.Black;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("! PEPSI !", 17.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(12, 425);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(193, 92);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "OLD METHOD";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("! PEPSI !", 33F);
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(103, 94);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(334, 49);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "CHANGELOGS";
             // 
             // Form1
             // 
@@ -154,7 +147,7 @@ namespace FearLess.cc
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(528, 572);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.richTextBox1);
@@ -184,7 +177,7 @@ namespace FearLess.cc
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label2;
     }
 }
 

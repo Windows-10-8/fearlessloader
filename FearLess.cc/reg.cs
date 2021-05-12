@@ -100,7 +100,9 @@ namespace FearLess.cc
                         System.Windows.Forms.MessageBox.Show("Done, now you should login, if you have a problem dm on discord NothingM#0093 | INFO: You got invited by: " + rd[1].ToString() + "!", "Error",
 System.Windows.Forms.MessageBoxButtons.OK,
 System.Windows.Forms.MessageBoxIcon.Information);
-                        this.Close();
+                        key ky = new key();
+                        ky.Show();
+                        this.Dispose();
                     }
 
                 }

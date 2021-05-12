@@ -211,6 +211,7 @@ System.Windows.Forms.MessageBoxIcon.Error);
         private void button3_Click(object sender, EventArgs e)
         {
             reg re = new reg();
+            Hide();
             re.ShowDialog();
         }
 
