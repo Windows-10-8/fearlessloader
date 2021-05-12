@@ -221,6 +221,13 @@ System.Windows.Forms.MessageBoxIcon.Error);
 
         private async void key_Load(object sender, EventArgs e)
         {
+
+            if (Properties.Settings.Default.Username != string.Empty)
+            {
+                textBox1.Text = Properties.Settings.Default.Username;
+                textBox2.Text = Properties.Settings.Default.Password;
+            }
+
             try
             {
                 if (await IsDown("https://sidesense.eu/") == false)
