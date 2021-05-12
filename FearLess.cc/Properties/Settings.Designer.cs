@@ -25,5 +25,8 @@ namespace FearLess.cc.Properties
                 return defaultInstance;
             }
         }
+
+        public string Username { get; internal set; }
+        public string Password { get; internal set; }
     }
 }

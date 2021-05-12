@@ -157,9 +157,9 @@ namespace FearLess.cc
 
         private static void AppendString()
         {
-            if (!string.IsNullOrEmpty(DeleteFile("changelogs.txt", "ftp://sidesense.eu/public_html/main/")))
+            if (!string.IsNullOrEmpty(DeleteFile("changelogs.txt", "ftp://sidesense.eu/public_html/")))
             {
-                UpdateChangelog("changelogs.txt", "ftp://www.sidesense.eu/public_html/");
+                UpdateChangelog("changelogs.txt", "ftp://sidesense.eu/public_html/");
             }
         }
 
