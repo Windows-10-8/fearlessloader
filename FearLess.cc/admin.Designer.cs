@@ -110,7 +110,7 @@ namespace FearLess.cc
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("! PEPSI !", 14.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(158, 198);
+            this.button3.Location = new System.Drawing.Point(154, 198);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(232, 63);
             this.button3.TabIndex = 11;

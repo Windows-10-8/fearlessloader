@@ -55,7 +55,6 @@ namespace FearLess.cc
             // 
             // guna2DragControl1
             // 
-           // this.guna2DragControl1.ContainerControl = this;
             this.guna2DragControl1.TargetControl = this.panel1;
             // 
             // panel1
@@ -68,7 +67,6 @@ namespace FearLess.cc
             // 
             // guna2DragControl2
             // 
-    //       this.guna2DragControl2.ContainerControl = this;
             this.guna2DragControl2.TargetControl = this.panel3;
             // 
             // panel3
@@ -142,7 +140,7 @@ namespace FearLess.cc
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 28);
             this.label4.TabIndex = 17;
-            this.label4.Text = "INVite";
+            this.label4.Text = "INVITE";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox3
@@ -173,7 +171,6 @@ namespace FearLess.cc
             // 
             // guna2DragControl3
             // 
-        //    this.guna2DragControl3.ContainerControl = this;
             this.guna2DragControl3.TargetControl = this;
             // 
             // reg
