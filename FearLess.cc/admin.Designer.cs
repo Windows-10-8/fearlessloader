@@ -48,11 +48,11 @@ namespace FearLess.cc
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("! PEPSI !", 33F);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(12, 28);
+            this.label4.Location = new System.Drawing.Point(18, 28);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(506, 49);
+            this.label4.Size = new System.Drawing.Size(629, 49);
             this.label4.TabIndex = 9;
-            this.label4.Text = "FearLess.cc | ADMIN";
+            this.label4.Text = "FearLess.cc Admin Tool";
             // 
             // button1
             // 
@@ -62,7 +62,7 @@ namespace FearLess.cc
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("! PEPSI !", 14.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(32, 116);
+            this.button1.Location = new System.Drawing.Point(89, 112);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(232, 63);
             this.button1.TabIndex = 8;
@@ -72,18 +72,18 @@ namespace FearLess.cc
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel1.BackColor = System.Drawing.Color.Green;
             this.panel1.Location = new System.Drawing.Point(-1, 307);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(552, 13);
+            this.panel1.Size = new System.Drawing.Size(655, 13);
             this.panel1.TabIndex = 7;
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.panel2.BackColor = System.Drawing.Color.Green;
             this.panel2.Location = new System.Drawing.Point(0, -2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(552, 14);
+            this.panel2.Size = new System.Drawing.Size(654, 13);
             this.panel2.TabIndex = 6;
             // 
             // button2
@@ -94,7 +94,7 @@ namespace FearLess.cc
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("! PEPSI !", 14.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(285, 116);
+            this.button2.Location = new System.Drawing.Point(342, 112);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(197, 63);
             this.button2.TabIndex = 10;
@@ -110,7 +110,7 @@ namespace FearLess.cc
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("! PEPSI !", 14.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(154, 198);
+            this.button3.Location = new System.Drawing.Point(211, 194);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(232, 63);
             this.button3.TabIndex = 11;
@@ -140,7 +140,7 @@ namespace FearLess.cc
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("! PEPSI !", 11.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(430, 270);
+            this.button4.Location = new System.Drawing.Point(545, 270);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(88, 31);
             this.button4.TabIndex = 12;
@@ -153,7 +153,7 @@ namespace FearLess.cc
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(528, 320);
+            this.ClientSize = new System.Drawing.Size(645, 320);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
