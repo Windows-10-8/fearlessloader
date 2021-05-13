@@ -7,12 +7,12 @@ Now, it download from my hosting the updated dll everytime and  it will inject u
 Future updates will comprends: *inject from byte array* (MORE SECURE METHOD), ecrypting name and pass (security)
 
 # Helpers
-Thanks to: nah and Mini Hood to helping me! :D
+Thanks to: nah, lucaiseland and Mini Hood to helping me! :D
 
 # Status
 
 | Feature | Supported          |
 | ------- | ------------------ |
-| Auto Update   | :x: |
+| Auto Update   | 🛠️ |
 | Inject Byte array  | :white_check_mark:                 |
 | Login  | :white_check_mark:                |
