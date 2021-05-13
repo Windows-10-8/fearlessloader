@@ -14,5 +14,5 @@ Thanks to: nah, lucaiseland and Mini Hood to helping me! :D
 | Feature | Supported          |
 | ------- | ------------------ |
 | Auto Update   | 🛠️ |
-| Inject Byte array  | :white_check_mark:                 |
+| Inject Byte array  | 🛠️                 |
 | Login  | :white_check_mark:                |
