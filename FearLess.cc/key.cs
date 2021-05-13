@@ -25,6 +25,8 @@ namespace FearLess.cc
             panel1.BackColor = Color.FromArgb(r, g, b);
             panel3.BackColor = Color.FromArgb(r, g, b);
             button1.BackColor = Color.FromArgb(r, g, b);
+            button2.BackColor = Color.FromArgb(r, g, b);
+
 
 
             if (r > 0 && b == 0)
@@ -43,8 +45,7 @@ namespace FearLess.cc
                 r++;
             }
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        public void login(string name,string pass)
         {
             var mbs = new ManagementObjectSearcher("Select ProcessorId From Win32_processor");
             ManagementObjectCollection mbsList = mbs.Get();
@@ -106,6 +107,8 @@ namespace FearLess.cc
                         {
                             Properties.Settings.Default.Username = textBox1.Text;
                             Properties.Settings.Default.Password = textBox2.Text;
+                            Properties.Settings.Default.Type = "standard";
+
                             Properties.Settings.Default.Save();
                             Console.WriteLine("normal key, proceed");
                             //WebBrowser wb = new WebBrowser();
@@ -134,7 +137,7 @@ namespace FearLess.cc
                                 Console.WriteLine(dt);
                                 Console.WriteLine(expiry);
 
-                                
+
 
 
                                 Console.WriteLine("yes");
@@ -154,8 +157,9 @@ namespace FearLess.cc
 System.Windows.Forms.MessageBoxButtons.OK,
 System.Windows.Forms.MessageBoxIcon.Error);
                                 Form1 frm = new Form1();
-                                frm.Show();
                                 Hide();
+
+                                frm.Show();
 
                             }
                             //}
@@ -166,11 +170,13 @@ System.Windows.Forms.MessageBoxIcon.Error);
                         {
                             Properties.Settings.Default.Username = textBox1.Text;
                             Properties.Settings.Default.Password = textBox2.Text;
+                            Properties.Settings.Default.Type = "admin";
+
                             Properties.Settings.Default.Save();
                             Console.WriteLine("Admin detected! Proceed!");
                             admin ad = new admin();
-                            ad.Show();
                             Hide();
+                            ad.Show();
                         }
                     }
                 }
@@ -184,6 +190,10 @@ System.Windows.Forms.MessageBoxIcon.Error);
 
             rd.Close();
             conn.Close();
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            login("idk", "idk1");
         }
         public string get_web_content(string url)
         {
@@ -241,24 +251,29 @@ System.Windows.Forms.MessageBoxIcon.Error);
         private async void key_Load(object sender, EventArgs e)
         {
 
-            if (Properties.Settings.Default.Username != string.Empty)
+            if (Properties.Settings.Default.Username == "null" && Properties.Settings.Default.Password == "null" && Properties.Settings.Default.Type == "null")
+            {
+
+            }
+            else
             {
                 textBox1.Text = Properties.Settings.Default.Username;
                 textBox2.Text = Properties.Settings.Default.Password;
 
-                if (Properties.Settings.Default.Type == "admin")
-                {
-                    admin ad = new admin();
-                    Hide();
-                    ad.ShowDialog();
-                }
-                else
-                {
-                    Form1 injform = new Form1();
-                    Hide();
-                    injform.ShowDialog();
-                }
+                login("idk", "idk1");
 
+                //if (Properties.Settings.Default.Type == "admin")
+                //{
+                //    admin ad = new admin();
+                //    Hide();
+                //    ad.ShowDialog();
+                //}
+                //else
+                //{
+                //    Form1 injform = new Form1();
+                //    Hide();
+                //    injform.ShowDialog();
+                //}
             }
 
             try

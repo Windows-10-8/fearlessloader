@@ -217,7 +217,6 @@ namespace FearLess.cc
         {
             try
             {
-
                 return true;
             }
             catch (Exception ex)
@@ -249,8 +248,31 @@ namespace FearLess.cc
 
         }
 
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.Password = "null";
+            Properties.Settings.Default.Username = "null";
+            Properties.Settings.Default.Type = "null";
+            Properties.Settings.Default.Save();
+            key ky = new key();
+
+            Console.WriteLine(Properties.Settings.Default.Password);
+            Console.WriteLine(Properties.Settings.Default.Username);
+            Console.WriteLine(Properties.Settings.Default.Type);
+
+
+            ky.Show();
+            Close();
+
+
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            Console.WriteLine(Properties.Settings.Default.Password);
+            Console.WriteLine(Properties.Settings.Default.Username);
+            Console.WriteLine(Properties.Settings.Default.Type);
             richTextBox2.AppendText("Hello!");
             //Task.Run(() => RaimbowColor());
             string webRequest = @"http://sidesense.eu/changelogs.txt";
@@ -265,7 +287,9 @@ namespace FearLess.cc
             panel2.BackColor = Color.FromArgb(r, g, b);
             panel1.BackColor = Color.FromArgb(r, g, b);
             button1.BackColor = Color.FromArgb(r, g, b);
-            
+            button2.BackColor = Color.FromArgb(r, g, b);
+
+
 
 
             if (r > 0 && b == 0)
