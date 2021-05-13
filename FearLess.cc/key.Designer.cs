@@ -84,9 +84,9 @@ namespace FearLess.cc
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("! PEPSI !", 12.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(360, 167);
+            this.button1.Location = new System.Drawing.Point(347, 174);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 30);
+            this.button1.Size = new System.Drawing.Size(91, 29);
             this.button1.TabIndex = 5;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
@@ -170,7 +170,7 @@ namespace FearLess.cc
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("! PEPSI !", 12.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(223, 168);
+            this.button3.Location = new System.Drawing.Point(210, 174);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(122, 29);
             this.button3.TabIndex = 12;

@@ -82,7 +82,7 @@ namespace FearLess.cc
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("! PEPSI !", 18.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(83, 155);
+            this.label3.Location = new System.Drawing.Point(83, 146);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 28);
             this.label3.TabIndex = 15;
@@ -93,7 +93,7 @@ namespace FearLess.cc
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("! PEPSI !", 18.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(6, 101);
+            this.label2.Location = new System.Drawing.Point(6, 92);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(165, 28);
             this.label2.TabIndex = 14;
@@ -104,7 +104,7 @@ namespace FearLess.cc
             this.textBox2.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBox2.Location = new System.Drawing.Point(173, 155);
+            this.textBox2.Location = new System.Drawing.Point(173, 146);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(402, 28);
             this.textBox2.TabIndex = 13;
@@ -126,7 +126,7 @@ namespace FearLess.cc
             this.textBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBox1.Location = new System.Drawing.Point(173, 101);
+            this.textBox1.Location = new System.Drawing.Point(173, 92);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(402, 28);
             this.textBox1.TabIndex = 11;
@@ -136,7 +136,7 @@ namespace FearLess.cc
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("! PEPSI !", 18.75F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(61, 208);
+            this.label4.Location = new System.Drawing.Point(61, 199);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(106, 28);
             this.label4.TabIndex = 17;
@@ -148,7 +148,7 @@ namespace FearLess.cc
             this.textBox3.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBox3.Location = new System.Drawing.Point(173, 208);
+            this.textBox3.Location = new System.Drawing.Point(173, 199);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(402, 28);
             this.textBox3.TabIndex = 16;
@@ -161,9 +161,9 @@ namespace FearLess.cc
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("! PEPSI !", 17.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(245, 242);
+            this.button1.Location = new System.Drawing.Point(240, 251);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(158, 35);
+            this.button1.Size = new System.Drawing.Size(158, 39);
             this.button1.TabIndex = 18;
             this.button1.Text = "REGISTER";
             this.button1.UseVisualStyleBackColor = false;
