@@ -267,7 +267,7 @@
     <Compile Include="reg.cs">
       <SubType>Form</SubType>
     </Compile>
-	<Compile Include="Injection\Helpers.cs" />
+    <Compile Include="Injection\Helpers.cs" />
     <Compile Include="Injection\ManualMapInjector.cs" />
     <Compile Include="Injection\Types\ManagedPtr.cs" />
     <Compile Include="Injection\Win32\Definitions.cs" />

@@ -22,7 +22,7 @@ namespace FearLess.cc
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-      /*      panel1.BackColor = Color.FromArgb(r, g, b);
+            panel1.BackColor = Color.FromArgb(r, g, b);
             panel3.BackColor = Color.FromArgb(r, g, b);
             button1.BackColor = Color.FromArgb(r, g, b);
 
@@ -41,7 +41,7 @@ namespace FearLess.cc
             {
                 b--;
                 r++;
-            }*/
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -245,9 +245,20 @@ System.Windows.Forms.MessageBoxIcon.Error);
             {
                 textBox1.Text = Properties.Settings.Default.Username;
                 textBox2.Text = Properties.Settings.Default.Password;
-                Form1 injform = new Form1();
-                Hide();
-                injform.ShowDialog();
+
+                if (Properties.Settings.Default.Type == "admin")
+                {
+                    admin ad = new admin();
+                    Hide();
+                    ad.ShowDialog();
+                }
+                else
+                {
+                    Form1 injform = new Form1();
+                    Hide();
+                    injform.ShowDialog();
+                }
+
             }
 
             try

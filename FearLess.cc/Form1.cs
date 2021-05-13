@@ -262,7 +262,7 @@ namespace FearLess.cc
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-       /*     panel2.BackColor = Color.FromArgb(r, g, b);
+            panel2.BackColor = Color.FromArgb(r, g, b);
             panel1.BackColor = Color.FromArgb(r, g, b);
             button1.BackColor = Color.FromArgb(r, g, b);
             
@@ -282,7 +282,7 @@ namespace FearLess.cc
             {
                 b--;
                 r++;
-            }*/
+            }
         }
     }
 

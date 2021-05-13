@@ -28,5 +28,7 @@ namespace FearLess.cc.Properties
 
         public string Username { get; internal set; }
         public string Password { get; internal set; }
+        public string Type { get; internal set; }
+
     }
 }

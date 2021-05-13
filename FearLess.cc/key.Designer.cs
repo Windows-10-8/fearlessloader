@@ -113,7 +113,8 @@ namespace FearLess.cc
             this.textBox1.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBox1.Location = new System.Drawing.Point(169, 74);
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(169, 71);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(402, 28);
             this.textBox1.TabIndex = 6;
@@ -134,7 +135,8 @@ namespace FearLess.cc
             this.textBox2.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBox2.Location = new System.Drawing.Point(169, 133);
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(169, 130);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(402, 28);
             this.textBox2.TabIndex = 8;
@@ -145,7 +147,7 @@ namespace FearLess.cc
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("! PEPSI !", 18.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(-2, 73);
+            this.label2.Location = new System.Drawing.Point(-2, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(165, 28);
             this.label2.TabIndex = 9;
@@ -156,7 +158,7 @@ namespace FearLess.cc
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("! PEPSI !", 18.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(79, 132);
+            this.label3.Location = new System.Drawing.Point(79, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 28);
             this.label3.TabIndex = 10;
