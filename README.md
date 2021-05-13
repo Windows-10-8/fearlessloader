@@ -8,3 +8,11 @@ Future updates will comprends: *inject from byte array* (MORE SECURE METHOD), ec
 
 # Helpers
 Thanks to: nah and Mini Hood to helping me! :D
+
+# Status
+
+| Feature | Supported          |
+| ------- | ------------------ |
+| Auto Update   | :x: |
+| Inject Byte array  | :x:                |
+| Login  | :white_check_mark:                |
