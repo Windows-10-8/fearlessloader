@@ -84,7 +84,7 @@ namespace FearLess.cc
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(134, 420);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(268, 92);
+            this.button1.Size = new System.Drawing.Size(268, 67);
             this.button1.TabIndex = 2;
             this.button1.Text = "Load FearLess.cc";
             this.button1.UseVisualStyleBackColor = false;
@@ -109,6 +109,7 @@ namespace FearLess.cc
             this.richTextBox1.Size = new System.Drawing.Size(363, 42);
             this.richTextBox1.TabIndex = 6;
             this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // richTextBox2
             // 
@@ -140,6 +141,7 @@ namespace FearLess.cc
             this.label2.Size = new System.Drawing.Size(334, 49);
             this.label2.TabIndex = 9;
             this.label2.Text = "CHANGELOGS";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 

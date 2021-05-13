@@ -128,7 +128,7 @@ System.Windows.Forms.MessageBoxIcon.Information);
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            panel3.BackColor = Color.FromArgb(r, g, b);
+         /*   panel3.BackColor = Color.FromArgb(r, g, b);
             panel1.BackColor = Color.FromArgb(r, g, b);
             button1.BackColor = Color.FromArgb(r, g, b);
 
@@ -147,7 +147,7 @@ System.Windows.Forms.MessageBoxIcon.Information);
             {
                 b--;
                 r++;
-            }
+            }*/
         }
     }
 }

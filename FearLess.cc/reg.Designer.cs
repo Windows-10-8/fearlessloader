@@ -72,9 +72,9 @@ namespace FearLess.cc
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.panel3.Location = new System.Drawing.Point(-3, 445);
+            this.panel3.Location = new System.Drawing.Point(-3, 301);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(811, 10);
+            this.panel3.Size = new System.Drawing.Size(811, 154);
             this.panel3.TabIndex = 6;
             // 
             // label3
@@ -161,9 +161,9 @@ namespace FearLess.cc
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("! PEPSI !", 17.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(187, 287);
+            this.button1.Location = new System.Drawing.Point(245, 242);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(239, 66);
+            this.button1.Size = new System.Drawing.Size(158, 35);
             this.button1.TabIndex = 18;
             this.button1.Text = "REGISTER";
             this.button1.UseVisualStyleBackColor = false;
@@ -178,7 +178,7 @@ namespace FearLess.cc
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(610, 454);
+            this.ClientSize = new System.Drawing.Size(610, 317);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);

@@ -52,6 +52,7 @@ namespace FearLess.cc
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(723, 13);
             this.panel1.TabIndex = 3;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel2
             // 
@@ -64,9 +65,9 @@ namespace FearLess.cc
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.panel3.Location = new System.Drawing.Point(-2, 439);
+            this.panel3.Location = new System.Drawing.Point(-2, 221);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(723, 13);
+            this.panel3.Size = new System.Drawing.Size(723, 231);
             this.panel3.TabIndex = 4;
             // 
             // timer1
@@ -83,9 +84,9 @@ namespace FearLess.cc
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("! PEPSI !", 12.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(246, 230);
+            this.button1.Location = new System.Drawing.Point(360, 167);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(187, 108);
+            this.button1.Size = new System.Drawing.Size(91, 30);
             this.button1.TabIndex = 5;
             this.button1.Text = "Login";
             this.button1.UseVisualStyleBackColor = false;
@@ -96,7 +97,7 @@ namespace FearLess.cc
             this.textBox1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBox1.Location = new System.Drawing.Point(189, 75);
+            this.textBox1.Location = new System.Drawing.Point(172, 75);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(402, 28);
             this.textBox1.TabIndex = 6;
@@ -117,7 +118,7 @@ namespace FearLess.cc
             this.textBox2.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.textBox2.Location = new System.Drawing.Point(189, 134);
+            this.textBox2.Location = new System.Drawing.Point(172, 134);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(402, 28);
             this.textBox2.TabIndex = 8;
@@ -128,7 +129,7 @@ namespace FearLess.cc
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("! PEPSI !", 18.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(22, 75);
+            this.label2.Location = new System.Drawing.Point(1, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(165, 28);
             this.label2.TabIndex = 9;
@@ -139,7 +140,7 @@ namespace FearLess.cc
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("! PEPSI !", 18.75F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(99, 134);
+            this.label3.Location = new System.Drawing.Point(82, 133);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(84, 28);
             this.label3.TabIndex = 10;
@@ -151,13 +152,13 @@ namespace FearLess.cc
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Lime;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("! PEPSI !", 12.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.button2.Font = new System.Drawing.Font("! PEPSI !", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(543, 393);
+            this.button2.Location = new System.Drawing.Point(566, 18);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 40);
+            this.button2.Size = new System.Drawing.Size(31, 28);
             this.button2.TabIndex = 11;
-            this.button2.Text = "EXIT";
+            this.button2.Text = "X";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -169,9 +170,9 @@ namespace FearLess.cc
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("! PEPSI !", 12.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(12, 393);
+            this.button3.Location = new System.Drawing.Point(223, 168);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(128, 40);
+            this.button3.Size = new System.Drawing.Size(122, 29);
             this.button3.TabIndex = 12;
             this.button3.Text = "REGISTER";
             this.button3.UseVisualStyleBackColor = false;
@@ -182,7 +183,7 @@ namespace FearLess.cc
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(683, 450);
+            this.ClientSize = new System.Drawing.Size(603, 230);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label3);
